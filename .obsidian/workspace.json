@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "b0f43e784a1366e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1aaf1ca6c025abaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ba428ee8244a694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Relations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relations"
+            }
+          },
+          {
+            "id": "6fe7447c0b1c45b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Propositional logic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Propositional logic"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f42dd3d0bda70539",
+    "type": "split",
+    "children": [
+      {
+        "id": "436e1dd9bc2d7f08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec46cf1a66af7c2f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d399e7978eb08d85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3bb1e854f21df0c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "031aca30205006e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d9212600dc0c991",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ce8ddc701e8eeaa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Modulo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Modulo"
+            }
+          },
+          {
+            "id": "cccf5211d500e73a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Modulo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Modulo"
+            }
+          },
+          {
+            "id": "63ac35136fb13613",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "01a148d3373c49da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Modulo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Modulo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "github-sync:Sync with Remote": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ec46cf1a66af7c2f",
+  "lastOpenFiles": [
+    "New Text Document.txt",
+    "er",
+    "AlgoSoc/Data Types.md",
+    "Maths/Propositional logic.md",
+    "Maths/Functions.md",
+    "CS/Data Representation.md",
+    "Maths/Relations.md",
+    "Computer Systems/Arithmetic circuits.md",
+    "Maths/Parse Trees.md",
+    "Maths/Implication.md",
+    "Maths/Proofs.md",
+    "Maths/Proof by Contradiction.md",
+    "Computer Systems/Karnaugh Maps.md",
+    "Maths/Maths.md",
+    "Maths/Modular arithmetic.md",
+    "Maths/Logic.md",
+    "CS/Digital Logic Design.md",
+    "Computer Systems",
+    "Maths/Recursive Functions.md",
+    "Maths/Strong Induction.md",
+    "AlgoSoc",
+    "Maths/Sets.md",
+    "Maths/Proof by Induction.md",
+    "Maths/Grammars.md",
+    "Maths/Contradiction.md",
+    "Maths/Symbolic Logic.md",
+    "Maths/Euclids Algorithm.md",
+    "CS/Abstract Syntax Trees.md",
+    "Backus Naur Form.md",
+    "CS",
+    "Maths",
+    "cs",
+    "maths"
+  ]
+}
