@@ -1,0 +1,1 @@
+Creates trees out of [[Propositional logic]] formulas.
