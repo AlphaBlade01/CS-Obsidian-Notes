@@ -83,3 +83,5 @@ $\dots$
 
 > **Theorem:** Every proposition is equivalent to a formula in CNF and DNF
 
+- To read DNF from truth table, OR the truthy fields
+- To read CNF from truth table, AND the negation of the falsey fields
