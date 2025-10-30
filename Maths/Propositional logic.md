@@ -72,3 +72,8 @@ $\dots$
 	$\vdash A \rightarrow\ \models A$
 **Completeness:** A deduction system is complete w.r.t. a semantics if every valid formula is provable
 	$\models A \rightarrow\ \vdash A$ 
+
+
+## Normal forms
+**Conjunctive Normal forms**: $(A \vee B \vee C) \wedge (D \vee X) \wedge (¬A)$ 
+**Disjunctive Normal form:** $()$
