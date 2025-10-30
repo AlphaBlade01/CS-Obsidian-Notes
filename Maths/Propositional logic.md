@@ -75,5 +75,11 @@ $\dots$
 
 
 ## Normal forms
+
 **Conjunctive Normal forms**: $(A \vee B \vee C) \wedge (D \vee X) \wedge (¬A)$ 
-**Disjunctive Normal form:** $()$
+	Disjunction of literals
+**Disjunctive Normal form:** $(P \wedge Q \wedge A) \vee (R \wedge ¬Q) \vee (¬A)$ 
+	Conjunction of literals
+
+> **Theorem:** Every proposition is equivalent to a formula in CNF and DNF
+
