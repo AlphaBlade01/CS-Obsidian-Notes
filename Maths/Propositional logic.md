@@ -85,3 +85,7 @@ $\dots$
 
 - To read DNF from truth table, OR the truthy fields
 - To read CNF from truth table, AND the negation of the falsey fields
+
+### SAT Problem
+**Definition:** Given a CNF formula, can we assign T or F to each variable to satisfy the formula?
+
