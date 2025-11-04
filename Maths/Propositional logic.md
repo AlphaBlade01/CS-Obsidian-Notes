@@ -86,6 +86,24 @@ $\dots$
 - To read DNF from truth table, OR the truthy fields
 - To read CNF from truth table, AND the negation of the falsey fields
 
-### SAT Problem
+## SAT Problem
 **Definition:** Given a CNF formula, can we assign T or F to each variable to satisfy the formula?
 
+**P:** Class of problems that can be solved in polynomial time
+**NP:** Class of problems that can have a potential solution derived in polynomial time
+	$P \subseteq NP$
+
+- Solution can be verified efficiently
+- No known algorithm to solve the problem efficiently
+
+#### DPLL Algorithm
+	SAT Solver which uses pruning instead of brute force
+1. Easy cases:
+	- Atom $p$ only appears as either $p$ or $¬p$ (but not both): assign truth value accordingly
+2. Branch:
+	- Set a truth value to a variable $p$ then remove unnecessary clauses
+3. Repeat until:
+	- All clauses are true
+	- One clause is false $\rightarrow$ return to step 2 and assign different truth value to $p$ 
+
+- Empty clauses `()` are the same as false
