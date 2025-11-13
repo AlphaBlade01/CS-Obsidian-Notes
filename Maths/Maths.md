@@ -1,4 +1,3 @@
-
 **coprime:** a & b are coprime if gcd(a, b) = 1
 **Sequence:** a function whose domain is $\mathbb{N}$ written as $a_n$ 
 ##### Reduced fraction 
