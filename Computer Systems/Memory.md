@@ -1,0 +1,5 @@
+- **ROM: ** Read only
+- **PROM:** Read only and electrically programmed
+- **EPROM:** Electrically written & UV-light erasure at chip-level
+- **EEPROM:** Electrically written & erased at block-level
+- 

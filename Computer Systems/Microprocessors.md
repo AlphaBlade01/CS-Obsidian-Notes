@@ -1,5 +1,5 @@
 ## Registers
-#### Data registers
+#### Data registers:
 - D0 - D7: Holds intermediate data values between calculations
 #### Address registers:
 - A0 - A6: Holds pointers in the calculation of operand addresses
