@@ -1,4 +1,4 @@
-## Propositional logic
+ ## Propositional logic
 [[Propositional logic]]
 Each connective has at least 1 introduction and 1 elimination
 

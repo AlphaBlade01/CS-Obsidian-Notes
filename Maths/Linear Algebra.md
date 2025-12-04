@@ -13,7 +13,7 @@ Rotating clockwise:
 	$x' = \cos(\theta)x + \sin(\theta)y$ 
 	$y' = -\sin(\theta)x + \cos(\theta)y$
 
-## Linear Operatora
+## Linear Operators
 Given vector spaces $V, W$ a map $F:\ V\to W$ is **linear operator** if:
 	$F(r \vec{v}) = rF(\vec{v})$
 	$F(\vec{v} + \vec{w}) = F(\vec{v}) + F(\vec{w})$
@@ -30,3 +30,11 @@ $F \in \mathcal{L}(U,W)\ \wedge\ G \in \mathcal{L}(V,U) \implies F \cdot G \in \
 - Distributivity with composition over addition
 	$F\cdot(G+H) = F\cdot G+F\cdot H$
 
+## Orthonormal basis
+For basis $(\vec{v_{1}},\dots,\vec{v_{n}})$:
+- **Orthogonal:** If $\langle \vec{v_{i}}, \vec{v_{j}} \rangle = 0$ when $i \neq j$
+- **Orthonormal:** If orthogonal and $\langle \vec{v_{i}} = \vec{v_{j}} \rangle = 1$
+### Householder Reflections
+	Reflection over the hyperplane orthogonal to v
+
+$$H = I - \frac{2}{|v|^2} v^T v$$

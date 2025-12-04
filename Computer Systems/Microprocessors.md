@@ -12,3 +12,8 @@
 - 32 bit (on 32-bit system)
 - Points to the next instruction in memory
 
+## Improving performance
+### More cache
+- Adding cache decouples processor from slower RAM
+- cache hit rates are reaching their limits and SRAM is power hungry
+### More complicated execution

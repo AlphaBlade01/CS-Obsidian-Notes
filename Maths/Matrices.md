@@ -15,3 +15,16 @@ A matrix is in **Reduced Row Echelon form** if:
 - Every leading entry is 1
 - Every entry above and below every leading entry is 1
 
+## Inversion
+
+## Rank
+
+
+### Orthogonal matrices
+$A$ is **orthogonal** if $A^T A = I$ 
+- $A^T$ is inverse
+- $A$ preserves dot product: $\langle Ax, Ay \rangle = \langle x^T, y^T \rangle$ 
+- $A$ preserves length: $|Ax| = |x^T|$
+- $A$ preserves distance: $d(Ax, Ay) = d(x^T, y^T)$
+- $A$ preserves angles: $\angle(Ax, Ay) = \angle(x, y)$
+
