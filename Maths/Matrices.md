@@ -18,7 +18,8 @@ A matrix is in **Reduced Row Echelon form** if:
 ## Inversion
 
 ## Rank
-
+- **rank-deficient:** its rank < no. of columns/rows
+- Any square matrix is **rank-deficient** $\iff$ its determinant = 0
 
 ### Orthogonal matrices
 $A$ is **orthogonal** if $A^T A = I$ 

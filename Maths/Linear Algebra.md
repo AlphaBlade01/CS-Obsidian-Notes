@@ -38,3 +38,9 @@ For basis $(\vec{v_{1}},\dots,\vec{v_{n}})$:
 	Reflection over the hyperplane orthogonal to v
 
 $$H = I - \frac{2}{|v|^2} v^T v$$
+## Eigenvectors & Eigenvalues
+For a $n\times n$ matrix $A$, & $n\times 1$ vector $v$:
+- $Av = \lambda v$ 
+- $v$ would be an eigenvector of $A$
+- $\lambda$ is the eigenvalue corresponding to $v$
+$$Av = \lambda v \iff Av - \lambda v = O \iff (A - \lambda I)v = O$$
