@@ -33,7 +33,10 @@ $F \in \mathcal{L}(U,W)\ \wedge\ G \in \mathcal{L}(V,U) \implies F \cdot G \in \
 ## Orthonormal basis
 For basis $(\vec{v_{1}},\dots,\vec{v_{n}})$:
 - **Orthogonal:** If $\langle \vec{v_{i}}, \vec{v_{j}} \rangle = 0$ when $i \neq j$
+	Perpendicular
+	- Matrix $Q$ is orthogonal if $Q^T Q = I $
 - **Orthonormal:** If orthogonal and $\langle \vec{v_{i}} = \vec{v_{j}} \rangle = 1$
+	Every vector is length 1
 ### Householder Reflections
 	Reflection over the hyperplane orthogonal to v
 
