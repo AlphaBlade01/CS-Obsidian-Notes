@@ -5,19 +5,19 @@
 Two types of nodes:
 - Accepting state
 - Rejecting state
-### Definition:
-A total DFA consists of:
+## Types of Automata
+### Total DFA
+A total DFA (Deterministic Finite Automata) consists of:
 - A finite set $X$ of states
 - An initial state $p \in X$
 - A total transition function $\delta : X \times \Sigma \rightarrow X$
 - A set of accepting states $\in X$
-## Partial DFA
+### Partial DFA
 	Doesn't have transition for every possible input
 - Rejected if stuck in the DFA
 - Converted to a total DFA by turning it into an error state
 - Can have missing initial state
-
-## Non-deterministic
+### Non-deterministic
 	Asks whether a word is acceptable instead of accepted
 - Can have two same transitions out of the same state
 - Can have two ore more initial states
@@ -29,8 +29,7 @@ Eg. $a(aa)*b(bb)*$
 
 **slow transition:** one input but goes through many epsilon states before input character
 **slow accept:** goes through several epsilons before getting accepted
-
-#### Converting to NFA
+### Converting to NFA
 	
 - Create a shortcut to override all slow transitions
 
@@ -51,10 +50,13 @@ Eg. $a(aa)*b(bb)*$
 		1. Join all branch labels with $|$ 
 		2. Replace loops with $*$ 
 5. Read final label for RegEx
+## Complementation
+	Everything outside of the set of words
 
-## Regularity
-	A language that can be represented by regex
-- According to [[Kleene's Theorem]], 
+To show the complement of a regular language is regular:
+- Convert RegEx to total DFA
+- Swap accepting and rejecting states
+
 
 Related:
 [[Regex]] 
