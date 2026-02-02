@@ -52,7 +52,11 @@ Eg. $a(aa)*b(bb)*$
 		2. Replace loops with $*$ 
 5. Read final label for RegEx
 
+## Regularity
+	A language that can be represented by regex
+- According to [[Kleene's Theorem]], 
 
 Related:
 [[Regex]] 
+[[Kleene's Theorem]]
 

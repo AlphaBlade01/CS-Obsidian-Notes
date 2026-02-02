@@ -3,6 +3,7 @@ $\Sigma$* - set of all words
 **language** - subset of $\Sigma$* i.e. any set of words
 **regular** - A language $L \subseteq \Sigma$* that can be represented by a regex 
 **compliment** - All words that aren't part of the regex
+	Written as $\bar{L}$
 ### Facts
 - compliment & intersection of two regular regex sets are regular
 # Regex
