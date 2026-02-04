@@ -2,6 +2,10 @@
 - Start at the initial state
 - Each arrow represents reading a character
 
+Related:
+[[Regex]] 
+[[Kleene's Theorem]]
+
 Two types of nodes:
 - Accepting state
 - Rejecting state
@@ -29,9 +33,11 @@ Eg. $a(aa)*b(bb)*$
 
 **slow transition:** one input but goes through many epsilon states before input character
 **slow accept:** goes through several epsilons before getting accepted
-### Converting to NFA
-	
+### Converting to "fast" NFA
+	Removing unnecessary complexities introduced by epsilon
+- Maintain all initial states & intermediary states
 - Create a shortcut to override all slow transitions
+- States that lead to slow accept can become accepting states
 
 ## Generalised NFA
 ### Converting to RegEx
@@ -51,15 +57,39 @@ Eg. $a(aa)*b(bb)*$
 		2. Replace loops with $*$ 
 5. Read final label for RegEx
 
-## Complementation
-	Everything outside of the set of words
-
+## Regularities
+	Regular: language can be represented by a RegEx
+#### Complementation
 To show the complement of a regular language is regular:
-- Convert RegEx to total DFA
-- Swap accepting and rejecting states
+1. Convert RegEx to total DFA
+2. Swap accepting and rejecting states
+#### Intersection
+To show the intersection of two regular languages is regular:
+- Express through union & complementation: $L\cap M = \overline{\overline{L}\cup \overline{M}}$ 
+- Construct a DFA with ordered pair of states from the original two automata
 
+## Equivalence
+	Testing whether two regular expressions represent the same language
+1. Create automatas for either expression
+2. Starting from initial state, create a new automata of pairs of states $(x,y)$ from both automata
+3. If every state is either accepted or rejected by both automata, they are equivalent
 
-Related:
-[[Regex]] 
-[[Kleene's Theorem]]
+## Minimal Automata
+	Automata with no unnecessary states
+
+A minimal partial DFA is a partial DFA that satisfies 3 conditions:
+- Every state is **reachable**
+- Every state is **hopeful**
+- Every pair of equivalent states are equal
+
+> **Reachable:** A state $s$ is reachable if there is a path from an initial state to $s$
+> **Hopeful:** A state $s$ is hopeful when there is a path from $s$ to an accepting state
+> **Equivalent:** Two states $s$ and $t$ are equivalent if $\delta(s, a)$ and $\delta(t,a)$ both lead to same acceptance 
+> 	They must also have the same transitions: each following state is equivalent
+> 	$\delta(state, input)$ represents path from $state$ along $input$ 
+### How to minimise an Automata
+1. Remove all unreachable states
+2. Remove all hopeless states
+3. Merge each set of equivalent states
+![[Pasted image 20260204223642.png]]
 
