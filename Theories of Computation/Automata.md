@@ -50,6 +50,7 @@ Eg. $a(aa)*b(bb)*$
 		1. Join all branch labels with $|$ 
 		2. Replace loops with $*$ 
 5. Read final label for RegEx
+
 ## Complementation
 	Everything outside of the set of words
 
