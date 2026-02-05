@@ -17,3 +17,4 @@ Figures out how good/bad the line of best fit is.
 **Absolute value loss:** $L1 = |f(x) - y|$
 **Mean squared error loss:** $L2 = (f(x) - y)^2$
 **0/1 loss:** $L_{0/1} = 0$ if $f(x) = y$, else $1$ 
+
