@@ -30,6 +30,3 @@ Process:
 
 > $\Delta g(\vec{w})$ is a vector of partial derivatives which is iteratively used until it results in a ~0 step size
 > $\Delta g(\vec{w}) = 2(\vec{w}^T x^{(n)} - y^{(n)})x^{(n)}$ 
-
-
-
