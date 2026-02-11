@@ -1,3 +1,4 @@
+
 ## Arrays & Dynamic arrays
 - **Basic array operations:** Constant time $O(1)$ access & replacement by index
 - **Insertion:** Inserting into array requires shifting elements or creating a larger array resulting in $O(n)$ time
