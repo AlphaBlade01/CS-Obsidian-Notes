@@ -6,7 +6,7 @@ This method is **linear** and **parametric** ([[Machine Learning]])
 3. Learning algorithm by gradient descent
 
 ## Sigmoid function
-	Probability function between 0 & 1
+	Probability function between 0 & 1 (handles the confidence)
 
 $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 - Smoothed version of the step function
@@ -17,11 +17,14 @@ $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 ## Model (general case)
 	Hypothesis function for a logistic regression model
 If $x$ has $d$ attributes, we have:
-$$h(x;w) = \sigma(w_0 + w_1x + \dots + w_dx_d) = \frac{1}{1 + e^{-(w^Tx)}}$$
-> Note: $w^Tx$ is a single number
+$$h(x;w) = \sigma(w_0 + w_1x_1 + \dots + w_dx_d) = \frac{1}{1 + e^{-(w^Tx)}}$$
+> Note: $w^Tx$ is a single number representing which class the input falls into
+> 	positive number = positive class
+> 	negative number = negative class
 > Output represents the probability of the label being 1, denoted: $P(y=1|x;w)$ 
 
 **Decision boundary:** Set of all possible inputs that result in sigmoid outputting 0.5
+	When $w^Tx=0$ since that is the boundary of the two classes 
 
 ## Cost function
 Types covered in [[Linear Regression]]

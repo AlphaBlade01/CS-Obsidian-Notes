@@ -20,13 +20,16 @@ Figures out how good/bad the line of best fit is.
 **0/1 loss:** $L_{0/1} = 0$ if $f(x) = y$, else $1$ 
 
 ## Gradient Descent
-	A general strategy to minimise cost functions
+	A general strategy to minimise error in cost functions
 Process:
 1. Start at a random point, eg. $w_0 = 0,\ w_1 = 0$ 
 2. Repeat until no changes:
-	Update $w_0,\ w_1$ by taking a smell step in the **direction of steepest decent of cost**
+	Update $w_0,\ w_1$ by taking a smell step in the **direction of steepest descent of cost**
 	$\vec{w} := \vec{w} - a\Delta g(\vec{w})$ 
 3. Return $w_0,\ w_1$ 
 
 > $\Delta g(\vec{w})$ is a vector of partial derivatives which is iteratively used until it results in a ~0 step size
-> $\Delta g(\vec{w}) = 2(\vec{w}^T x^{(n)} - y^{(n)})x^{(n)}$ 
+> 	Each row $n$ is partial derivative of loss function with respect to $w_n$ 
+> $\Delta g(\vec{w}) = -2(y^{(n)} - \vec{w}^T x^{(n)})x^{(n)} = -2(y - \hat{y})x^{(n)}$ 
+> 	Derivative of MSE loss function
+> 	Calculates gradient for a SINGLE $n$ (refer to Empirical loss)

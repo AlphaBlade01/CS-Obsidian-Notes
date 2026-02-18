@@ -16,6 +16,7 @@ A total DFA (Deterministic Finite Automata) consists of:
 - An initial state $p \in X$
 - A total transition function $\delta : X \times \Sigma \rightarrow X$
 - A set of accepting states $\in X$
+> Defined $(X,p,\delta,Acc)$ 
 ### Partial DFA
 	Doesn't have transition for every possible input
 - Rejected if stuck in the DFA
