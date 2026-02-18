@@ -31,12 +31,13 @@ A total DFA (Deterministic Finite Automata) consists of:
 	NFA which can move between states without an input
 Eg. $a(aa)*b(bb)*$
 ![[Pasted image 20260120104131.png]]
+- The automata exists in all reachable states at once
 
 **slow transition:** one input but goes through many epsilon states before input character
 **slow accept:** goes through several epsilons before getting accepted
 ### Converting to "fast" NFA
 	Removing unnecessary complexities introduced by epsilon
-- Maintain all initial states & intermediary states
+- Maintain all initial states & intermediary states 
 - Create a shortcut to override all slow transitions
 - States that lead to slow accept can become accepting states
 
