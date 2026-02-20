@@ -34,6 +34,8 @@ To find lowest time complexity, we need to find the smallest height of the decis
 3. Append that element onto the end of the sorted section (increasing sorted array size by 1)
 #### Notes
 - Unstable sorting algorithm
+### Heap sort
+
 ## Divide & Conquer
 - Recursively split problem into smaller sub-problems until simple
 - Put together the solutions of the smaller sub-problems into the solution of the big problem
