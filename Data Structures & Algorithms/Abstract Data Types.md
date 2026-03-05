@@ -53,3 +53,8 @@ For each node at index $i$:
 1. Delete value
 2. Replace deleted value with last value in the subtree under the value
 3. Bubble down until correct order
+## AVL Trees
+	self-balancing binary tree
+- **balance invariant:** each node must have a balance of $-1,\ 0,\ \text{or}\ 1$  
+- balance = height(x.left) - height(x.right)
+- ensures height of tree remains $O(\log n)$ 
