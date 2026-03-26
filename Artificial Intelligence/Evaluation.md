@@ -12,6 +12,7 @@
 #### Advantages & Disadvantages
 	+ Computationally cheapest
 	- Most unreliable if sample size not large enough
+
 ## k-Fold Cross-Validation
 1. Split training set randomly into $k$ equal-sized disjoint sets
 2. Use $k-1$ of the sets for training
@@ -25,6 +26,7 @@
 	+ Slightly more reliable than holdout
 	- Wastes 1/k of annotated data
 	- Computationally k times as expensive as holdout
+
 ## Leave-one-out
 1. Leave out one example from annotated data to act as the validation set
 2. Train model using all remaining data
