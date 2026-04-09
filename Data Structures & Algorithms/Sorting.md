@@ -4,6 +4,7 @@ Related:
 **sort key:** the attribute by which a sorting algorithm sorts
 **stable sorting algorithm:** does not change order of items in a section of the array if they have the same sort key
 	Eg. if we have a list of students sorted by their first name and we sort by their last name, the students with the same last name would still be in order of first name relative to each other
+
 ## Comparison-based
 ### Lower bound time complexity
 - To sort $n$ items, there are $n!$ possible orderings
@@ -35,6 +36,11 @@ To find lowest time complexity, we need to find the smallest height of the decis
 #### Notes
 - Unstable sorting algorithm
 ### Heap sort
+	Less naive implementation of selection sort
+**Time complexity:** $O(n \log n)$
+1. Build binary heap from array (heapify array)
+2. Remove maximum element from heap and insert furthest to the end of sorted array
+3. Repeat step 2 until heap is empty
 
 ## Divide & Conquer
 - Recursively split problem into smaller sub-problems until simple
