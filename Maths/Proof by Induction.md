@@ -10,7 +10,7 @@ Induction utilises recursion to cover the entire set of numbers.
 **inductive step:** Prove that $P(n) \implies P(n + 1)$ 
 **conclusion:** If true for  $P(0)$  and  $P(n) \implies P(n + 1)$  then true  $\forall n \in \mathbb{Z}$ 
 
-# Strong Induction
+## Strong Induction
 For when $P(n)$ requires more than just $P(n - 1)$
 
 1. **Introduce the predicate:** "We prove P(n) for all $n \in \mathbb{Z}$"
@@ -29,7 +29,6 @@ Base case:
 Induction step:
 Let $n > 2$, and suppose $P(k)$ for all $k > n$
 $F_n = F_{n-1} + F_{n-2}$
-
 
 ## Strengthened induction
 Used when the original predicate cannot undergo induction.
